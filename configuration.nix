@@ -140,9 +140,6 @@
     java.enable       = true;
     fish.enable       = true;
     vim.defaultEditor = true;
-    emacs.enable      = true;
-    printing.enable   = true; # Enable CUPS to print documents.
-    tlp.enable        = true; # Power management
 
     tmux = {
       enable    = true;
@@ -211,6 +208,10 @@
       enable = true;
       home = "/home/torrent";
     };
+
+    emacs.enable    = true;
+    printing.enable = true; # Enable CUPS to print documents.
+    tlp.enable      = true; # Power management
   };
 
   virtualisation = {
